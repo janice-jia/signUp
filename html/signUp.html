@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="renderer" content="webkit">
+    <title>报名活动</title>
+    <link rel="stylesheet" href="./static/minCss/all.min.css">
+    <link rel="stylesheet" href="./static/minCss/bootstrap.min.css">
+</head>
+<body>
+    <div class="sign-container">
+        <div class="sign-banner">
+            <img src="./static/images/signUp/signUp.png" alt="" />
+        </div>
+        <div class="sign-border-top">
+            <p  class="sign-border-top1"></p>
+            <p  class="sign-border-top2"></p>
+            <p  class="sign-border-top3"></p>
+        </div>
+        <div class="sign-form row">
+            <form action="">
+                <p class="fillIn"><img src="./static/images/signUp/fillIn.png" alt=""></p>
+                <div class="sign-input row">
+                    <label class="col-xs-4 col-xs-offset-1" for="childName">孩子姓名<span></span></label>
+                    <input class="col-xs-6" type="text" name="childName" id="childName"/>
+                </div>
+                <div class="sign-input row">
+                    <label class="col-xs-4 col-xs-offset-1" for="parentsName" >家长姓名<span></span></label>
+                    <input class="col-xs-6" type="text" name="parentsName" id="parentsName"/>
+                </div>
+                <div class="sign-input row">
+                    <label class="col-xs-4 col-xs-offset-1" for="phone">家长手机号</label>
+                    <input class="col-xs-6" type="text" name="phone" id="phone"/>
+                </div>
+                <div class="sign-input row">
+                    <label class="col-xs-4 col-xs-offset-1" for="weChat">家长微信号</label>
+                    <input class="col-xs-6" type="text" name="weChat" id="weChat"/>
+                </div>
+                <div class="sign-input row">
+                    <label class="col-xs-4 col-xs-offset-1" for="num">购买数量<span></span></label>
+                    <input class="col-xs-6" type="text" name="num" id="num"/>
+                </div>
+                <div class="sign-input row">
+                    <label class="col-xs-4 col-xs-offset-1" for="signTime">报名时间<span></span></label>
+                    <div class="col-xs-6 signTime">
+                        <p><input type="radio" name="signTime" id="signTime"/>4月14日上午</p>
+                        <p><input type="radio" name="signTime"/>4月14日下午</p>
+                        <p><input type="radio" name="signTime"/>4月15日上午</p>
+                        <p><input type="radio" name="signTime"/>4月15日下午</p>
+                    </div>
+                </div>
+                <div class="sign-btn">
+                    <button type="submit">我要报名</button>
+                </div>
+            </form>
+        </div>
+        <div class="sign-border-bottom"><img src="./static/images/signUp/border-bottom.png" alt=""></div>
+    </div>
+</body>
+</html>
