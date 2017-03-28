@@ -2,15 +2,15 @@
 /*报名活动  start*/
 .sign-container {
   width: 100%;
-  background: #6ec6f2;
+  background: #99e4f7;
   padding-bottom: 30px; }
   .sign-container .sign-banner {
-    width: 90%;
+    width: 100%;
     text-align: center;
-    padding: 4em 0;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 10px; }
     .sign-container .sign-banner img {
-      max-width: 100%;
+      width: 100%;
       height: auto; }
   .sign-container .sign-border-top {
     position: relative;
