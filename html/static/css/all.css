@@ -89,7 +89,12 @@
           width: 1em; }
       .sign-container .sign-form .sign-input input {
         border: 1px solid #6ec6f2;
-        border-radius: 3px; }
+        border-radius: 3px;
+        padding: 0 5px; }
+      .sign-container .sign-form .sign-input select {
+        border: 1px solid #6ec6f2;
+        border-radius: 3px;
+        padding: 0 5px; }
       .sign-container .sign-form .sign-input .signTime {
         padding: 0;
         font-size: 14px;
