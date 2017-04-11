@@ -126,3 +126,33 @@
         cursor: pointer;
         font-size: 18px;
         color: #FFFFFF; }
+
+.payment-container {
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF; }
+  .payment-container #payment {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%); }
+    .payment-container #payment .payment-right {
+      text-align: center; }
+      .payment-container #payment .payment-right p {
+        font-size: 18px;
+        padding-top: 15px;
+        line-height: 25px;
+        color: #666666; }
+        .payment-container #payment .payment-right p.f12 {
+          font-size: 12px; }
+    .payment-container #payment .payment-btn {
+      text-align: center;
+      padding-top: 30px; }
+      .payment-container #payment .payment-btn .paymentBtn {
+        background: #00cd00;
+        text-align: center;
+        line-height: 33px;
+        border-radius: 5px;
+        width: 110px;
+        height: 33px;
+        font-size: 15px;
+        color: #fffefe; }
