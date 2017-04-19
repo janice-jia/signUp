@@ -156,3 +156,82 @@
         height: 33px;
         font-size: 15px;
         color: #fffefe; }
+
+.recruit-container {
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF; }
+  .recruit-container .recruit-banner {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 45px 0; }
+    .recruit-container .recruit-banner img {
+      max-width: 100%;
+      height: auto; }
+  .recruit-container .recruit-form {
+    background: #FFFFFF;
+    width: 70%;
+    margin: 0 auto; }
+    .recruit-container .recruit-form .recruit-input {
+      font-size: 20px;
+      color: #625f5f;
+      font-family: 新宋体;
+      clear: both;
+      box-sizing: border-box;
+      margin: 1em 1em;
+      text-align: center; }
+      .recruit-container .recruit-form .recruit-input label {
+        display: inline-block;
+        text-align: left;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 0; }
+      .recruit-container .recruit-form .recruit-input input {
+        border-radius: 3px;
+        padding: 0 10px;
+        height: 30px;
+        line-height: 30px;
+        border: none; }
+        .recruit-container .recruit-form .recruit-input input.input-width1 {
+          background: url("../images/recruit/inputBg1.png") no-repeat;
+          background-size: 100% 30px; }
+        .recruit-container .recruit-form .recruit-input input.input-width2 {
+          background: url("../images/recruit/inputBg2.png") no-repeat;
+          background-size: 100% 30px; }
+      .recruit-container .recruit-form .recruit-input select {
+        border: 1px solid #6ec6f2;
+        border-radius: 3px;
+        padding: 0 5px;
+        height: 35px;
+        line-height: 35px; }
+      .recruit-container .recruit-form .recruit-input .signTime {
+        padding: 0;
+        font-size: 14px;
+        color: #27a9ea;
+        text-align: left; }
+        .recruit-container .recruit-form .recruit-input .signTime p {
+          text-align: left; }
+          .recruit-container .recruit-form .recruit-input .signTime p input {
+            float: left;
+            height: auto;
+            margin-right: 5px; }
+    .recruit-container .recruit-form .recruit-btn {
+      text-align: center;
+      padding-bottom: 15px; }
+      .recruit-container .recruit-form .recruit-btn button {
+        background: url("../images/recruit/btn.png");
+        background-size: 100% 100%;
+        width: 158px;
+        height: 46px;
+        margin: 0 auto;
+        line-height: 46px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 18px;
+        color: #FFFFFF; }
+  .recruit-container .recruit-bottom {
+    width: 100%; }
+    .recruit-container .recruit-bottom img {
+      width: 100%;
+      max-width: 100%; }
